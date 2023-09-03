@@ -1,0 +1,491 @@
+
+/* INDEX */
+
+    /* HEADER */
+    header {
+        background-color: blueviolet;
+    }
+        .cabecera {
+         display:grid;
+         grid-template-columns: 1fr 4fr;
+         list-style: none;
+        }
+        .header .titulo {
+        color:white;
+        background-color: blueviolet;
+
+        }
+
+        .logo-goats {
+            width: 20%;
+            padding-top: 10px;
+            list-style: none;
+            
+        }
+        .list-items {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            width: 98%;
+            padding: 1%;
+            margin: 0%;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+        
+
+        }
+    /* MAIN */
+    .main {
+    background-color: beige;
+    }
+        .subtitulo-nuevoslanzamientos, .subtitulo-ofertas, .subtitulo-lasmasvendidas {
+            color: white;
+            background-color: rgb(138, 43, 226);
+            padding: 6px;
+        }
+
+        .nuevos-lanzamientos {
+            display: flex;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+    
+           }
+    
+           .ofertas {
+            display: flex;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+    
+           }
+    
+           .las-mas-vendidas {
+            display: flex;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+           }
+           
+    /* ASIDE */
+        .aside {
+            color: black;
+            background-color: rgb(228, 170, 64);
+        
+        }
+        .lista-aside {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin: 0%;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 10px;
+        }
+    /* FOOTER*/
+        .footer {
+            color: black;
+            background-color:  rgb(228, 170, 64);
+            margin-top: 1em;
+            }
+            .lista-footer {
+                width: 96%;
+                margin: 0%;
+                list-style: none;
+                display: grid;
+                grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr;
+                padding: 1%;
+            
+            }
+            .contacto {
+                color: black;
+                text-decoration: none;
+                
+          
+            }
+            .horarios-atencion {
+                color: black;
+                text-decoration: none;
+            
+            }
+            .instagram {
+                width: 50px;
+             
+            }
+            .tiktok {
+                width: 50px;
+            }
+            .youtube {
+                width: 50px;
+            }
+
+        /* HORARIOS */
+        .tabla {
+            background-color: beige;
+        }
+        .dias {
+            color: black;
+            background-color: rgb(200, 200, 200);
+            font-weight: bolder;
+         }
+        .horarios {
+            color: black;
+            background-color: rgb(200, 200, 200);
+            font-style: oblique;
+        }
+        .titulohorarios {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            font-style: italic;
+        }
+        .titulodias {
+            color: white;
+            background-color: blueviolet;
+        }
+
+/*FORMULARIO*/
+        .formulario {
+        color: black;
+        background-color: white;
+        margin: 5%;
+        padding: 5%;
+        border: 5px solid black;
+         }
+
+
+
+
+
+
+ /* @media PC grande */     
+@media (max-width: 1850px) {
+
+    /* HEADER */
+
+ .cabecera {
+     display:grid;
+     grid-template-columns: 1fr 2fr;
+     list-style: none;
+
+    }
+    .header .titulo {
+    color:white;
+    background-color: blueviolet;
+    width: 100%;
+    padding-top: 4%;
+
+    }
+
+    .logo-goats {
+        width: 30%;
+       
+        
+    }
+    .list-items {
+        color: black;
+        background-color: rgb(228, 170, 64);
+        list-style: none;
+         display: grid;
+         grid-template-columns: repeat(9, 1fr);
+    }
+
+
+    /* MAIN */
+    .nuevos-lanzamientos {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+    }
+
+    .ofertas {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+    .las-mas-vendidas {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+
+   /* FOOTER*/
+
+    .lista-footer {
+     width: 98%;
+     margin: 0%;
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     padding:  1%;
+     font-size: 100%;
+     text-align: center;
+ }
+ 
+}
+/* @media PC */
+@media (max-width: 1250px) {
+
+    /* HEADER */
+
+ .cabecera {
+     display:grid;
+     grid-template-columns: 1fr 2fr;
+     list-style: none;
+
+    }
+    .header .titulo {
+    color:white;
+    background-color: blueviolet;
+    width: 100%;
+
+    }
+
+    .logo-goats {
+        width: 30%;
+       
+        
+    }
+    .list-items {
+        color: black;
+        background-color: rgb(228, 170, 64);
+        list-style: none;
+         display: grid;
+         grid-template-columns: repeat(6, 1fr);
+    }
+
+
+    /* MAIN */
+    .nuevos-lanzamientos {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+    }
+
+    .ofertas {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+    .las-mas-vendidas {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+
+   /* FOOTER*/
+
+    .lista-footer {
+     width: 98%;
+     margin: 0%;
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     padding:  1%;
+     font-size: 100%;
+     text-align: center;
+ }
+ 
+}
+
+ /* @media TABLETS */
+@media (max-width: 1025px) {
+
+    /* HEADER */
+
+ .cabecera {
+     display:grid;
+     grid-template-columns: 1fr 2fr;
+     list-style: none;
+
+    }
+    .header .titulo {
+    color:white;
+    background-color: blueviolet;
+    width: 70%;
+
+    }
+
+    .logo-goats {
+        width: 30%;
+        padding-top: 10%;
+       
+        
+    }
+    .list-items {
+        color: black;
+        background-color: rgb(228, 170, 64);
+        list-style: none;
+         display: grid;
+         grid-template-columns: repeat(6, 1fr);
+    }
+
+
+    /* MAIN */
+    .nuevos-lanzamientos {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+    }
+
+    .ofertas {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+    }
+
+    .las-mas-vendidas {
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+
+   /* FOOTER*/
+
+    .lista-footer {
+     width: 98%;
+     margin: 0%;
+     display: flex;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 100%;
+     text-align: center;
+ }
+ 
+}
+/* @media CELULARES */
+@media (max-width: 650px) {
+
+       /* HEADER */
+
+    .cabecera {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+
+       }
+       .header .titulo {
+       color:white;
+       background-color: blueviolet;
+       width: 100%;
+       font-size: 90%;
+       }
+
+       .logo-goats {
+           width: 20%;
+          
+           
+       }
+       .list-items {
+           color: black;
+           background-color: rgb(228, 170, 64);
+           list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+       }
+
+
+       /* MAIN */
+       .nuevos-lanzamientos {
+        display: flex;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:  1%;
+        font-size: 120%;
+        background-color: beige;
+
+       }
+
+       .ofertas {
+        display: flex;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:  1%;
+        font-size: 120%;
+        background-color: beige;
+       }
+
+       .las-mas-vendidas {
+        display: flex;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:  1%;
+        font-size: 120%;
+        background-color: beige;
+       }
+
+
+      /* FOOTER*/
+
+       .lista-footer {
+        width: 98%;
+        margin: 0%;
+        display: flex;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding:  1%;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    
+}
